@@ -1,0 +1,110 @@
+{
+  "name": "foreign-trade-sales-team-dependencies",
+  "version": "1.0.0",
+  "updated": "2026-07-21",
+  "description": "Dependency skills for a three-person foreign trade sales workflow. Use this manifest from the main skill on first run to install missing supporting skills.",
+  "dependencies": [
+    {
+      "name": "sales-do",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-do",
+      "role": "router"
+    },
+    {
+      "name": "sales-prospect-list",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-prospect-list",
+      "role": "salesperson-1-search"
+    },
+    {
+      "name": "apify-ultimate-scraper",
+      "repo": "apify/agent-skills",
+      "path": "skills/apify-ultimate-scraper",
+      "role": "salesperson-1-search"
+    },
+    {
+      "name": "sales-apollo",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-apollo",
+      "role": "salesperson-1-search"
+    },
+    {
+      "name": "sales-outscraper",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-outscraper",
+      "role": "salesperson-1-search"
+    },
+    {
+      "name": "sales-phantombuster",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-phantombuster",
+      "role": "salesperson-1-search"
+    },
+    {
+      "name": "sales-hunter",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-hunter",
+      "role": "salesperson-1-enrichment"
+    },
+    {
+      "name": "sales-tomba",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-tomba",
+      "role": "salesperson-1-enrichment"
+    },
+    {
+      "name": "sales-enrich",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-enrich",
+      "role": "salesperson-1-enrichment"
+    },
+    {
+      "name": "sales-data-hygiene",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-data-hygiene",
+      "role": "salesperson-1-enrichment"
+    },
+    {
+      "name": "sales-intent",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-intent",
+      "role": "salesperson-2-qualification"
+    },
+    {
+      "name": "sales-account-map",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-account-map",
+      "role": "salesperson-2-qualification"
+    },
+    {
+      "name": "sales-compete",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-compete",
+      "role": "salesperson-2-qualification"
+    },
+    {
+      "name": "sales-lead-score",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-lead-score",
+      "role": "salesperson-2-qualification"
+    },
+    {
+      "name": "sales-content",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-content",
+      "role": "salesperson-3-outreach"
+    },
+    {
+      "name": "sales-cadence",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-cadence",
+      "role": "salesperson-3-outreach"
+    },
+    {
+      "name": "sales-deliverability",
+      "repo": "sales-skills/sales",
+      "path": "skills/sales-deliverability",
+      "role": "salesperson-3-outreach"
+    }
+  ]
+}
